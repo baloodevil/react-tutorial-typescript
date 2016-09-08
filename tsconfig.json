@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist/",
+        "sourceMap": true,
+        "noImplicitAny": true,
+        "module": "commonjs",
+        "target": "es5",
+        "jsx": "react"
+    },
+    "files": [
+        "./typings/index.d.ts",
+        "./src/components/Hello.tsx",
+        "./src/components/Comment.tsx",
+        "./src/components/CommentBox.tsx",
+        "./src/components/CommentList.tsx",
+        "./src/components/CommentForm.tsx",
+        "./src/index.tsx"
+    ]
+}
