@@ -1,15 +1,16 @@
-# Clone of Facebook's (react tutorial)[https://facebook.github.io/react/docs/tutorial.html] refactored to use Typescript classes and Webpack.
+# React Tutorial in Typescript
+###### Clone of Facebook's [react tutorial](https://facebook.github.io/react/docs/tutorial.html) refactored to use Typescript classes and Webpack.
 
-# Install
+## Install
 
-## Install dependencies
+#### Install dependencies
 `npm install`
 
-## Link so that typescript compiler uses globally installed typescript (assume you've installed Typescript globally).
+#### Link so that typescript compiler uses globally installed typescript (assumes you've installed Typescript globally with `npm install -g typescript`).
 `npm link typescript`
 
-## Compile Typescript files and bundle into public/dist/bundle.js
+#### Compile Typescript files and bundle into public/dist/bundle.js
 `webpack`
 
-## Start server
+#### Start server
 `npm start`
